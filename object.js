@@ -2,7 +2,7 @@ const Car1 = {
   brand: "Dacia",
   model: "Logan",
   year: 2010,
-  color: "Blacks"
+  color: "Black"
 };
 
 const Car2 = {
