@@ -35,7 +35,7 @@ var myPropertyName = "price";
 
 Car1[myPropertyName] = 5000;
 
-Car1.myPropertyName = "something";
+Car1.myPropertyName = "somethingg";
 
 delete Car1.myPropertyName;
 
