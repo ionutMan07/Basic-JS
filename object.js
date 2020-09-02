@@ -1,7 +1,7 @@
 const Car1 = {
   brand: "Dacia",
   model: "Logan",
-  year: 2010,
+  year: 2020,
   color: "Black"
 };
 
@@ -29,15 +29,15 @@ Car1.year = 2012;
 
 console.log(Car1.year);
 
-Car1.mileage = 130000;
+// Car1.mileage = 130000;
 
-var myPropertyName = "price";
+// var myPropertyName = "price";
 
-Car1[myPropertyName] = 5000;
+// Car1[myPropertyName] = 5000;
 
-Car1.myPropertyName = "somethingg";
+// Car1.myPropertyName = "somethingg";
 
-delete Car1.myPropertyName;
+// delete Car1.myPropertyName;
 
 console.log(Car1);
 
