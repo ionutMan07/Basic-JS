@@ -41,3 +41,19 @@ for (let i of myArray) {
   }
 }
 console.log("Max number of: ", myArray, "is", max);
+
+// how to replace a character from a string
+
+let message = "this-is-my-message";
+let correctMessage = message.replace(/-/gi, " ");
+console.log(correctMessage);
+
+const delRepetitive = function (array, char) {
+  for (i of array) {
+    if (char !== i) {
+      correctMessage += i;
+    }
+  }
+  // console.log(correctMessage);
+};
+delRepetitive(message, "-");
