@@ -54,7 +54,7 @@ console.log(Car1);
 
 console.log(Car1.year < Car2.year);
 
-var keys = Object.keys(Car1);
+var keys = Object.values(Car1);
 
 console.log(keys);
 
