@@ -18,6 +18,17 @@ const Car3 = {
   year: 2010,
   color: "White"
 };
+const Car4 = {
+  brand: {
+    brand: "Honda",
+    model: "Civic",
+    year: 2011,
+    color: "White"
+  },
+  model: "Civic",
+  year: 2010,
+  color: "White"
+};
 
 var carList = [Car1, Car2];
 
